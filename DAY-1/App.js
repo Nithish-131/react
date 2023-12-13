@@ -1,12 +1,10 @@
-import React from 'react';
-import LoginPage from './LoginPage';
-
+import signup from "./signup";
 function App() {
   return (
     <div>
-      <LoginPage/>
+      <signup/>
     </div>
   );
 }
 
-export default App;
+export default signup;

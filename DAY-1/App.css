@@ -7,8 +7,8 @@ body {
   display: flex;
   align-items:center;
   justify-content:center;
+  overflow: hidden;
 }
-
 div {
   display: flex;
   justify-content: center;
@@ -17,31 +17,27 @@ div {
 }
 
 form {
-  padding: 80px;
-  height: 300px;
+  padding: 100px;
+  width: 250px;
+  height: 250px;
   background-color: #fff;
   border: 2px solid black;
   border-radius: 30px;
 }
 
 h2 {
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   top: -80px;
   left:3px;
   text-align:center;
 }
-h1{
-  position: relative;
-  top: -40px;
-  text-align: center;
 
-}
 label {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display:flex;
   position: relative;
-  top: -10px;
+  top:-50px;
   margin-bottom: 8px;
   margin-left: 1px;
 }
@@ -49,7 +45,7 @@ label {
 input {
   display:inline;
   position: relative;
-  top:-10px ;
+  top: -50px;
   width: 100%;
   padding: 5px;
   border: 1px solid #ddd;
@@ -59,10 +55,20 @@ input {
 
 input[type="submit"] {
   background-color: #00bfff;
-  position: relative;
-  top:5px;
-  right: -5px;
   color: #fff;
+  position: relative;
+  top:-290px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="button"] {
+  background-color: #00bfff;
+  color: #fff;
+  position: relative;
+  top:-290px;
+  right: -23px;
   padding: 12px;
   border: none;
   border-radius: 5px;
@@ -70,8 +76,7 @@ input[type="submit"] {
 }
 h4{
   position: relative;
-  top:-15px;
-  right: -5px;
+  top:-635px;
   font-size: small;
   font-family:monospace;
 }
